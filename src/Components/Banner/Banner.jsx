@@ -7,7 +7,7 @@ const Banner = () => {
         data-aos-easing="ease-in-out"
         className="flex justify-center items-center flex-col h-screen"
       >
-        <p className="text-7xl font-bold uppercase text-yellow-300">
+        <p className="text-7xl font-bold uppercase text-my-text">
           hi, i'm jasmin
         </p>
         <p className="text-2xl uppercase">Junior Fontend Developer</p>

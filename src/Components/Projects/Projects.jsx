@@ -12,10 +12,14 @@ const Projects = () => {
       </p>
       <div className="space-y-10">
         <div
-          className=" border border-white rounded-lg hover:bg-yellow-300 hover:text-black transition-all  w-full py-5"
+          className="overflow-hidden border border-white hover:bg-lime-300 card rounded-lg hover:text-black transition-all  w-full py-5"
           data-aos="zoom-in-right"
           data-aos-delay="300"
         >
+          {/* <span className=""></span>
+          <span className=""></span>
+          <span className=""></span>
+          <span className=""></span> */}
           <div className="text-center">
             <p className="mb-3 text-4xl font-bold">OzshineCleaners</p>
             <p className="text-2xl">

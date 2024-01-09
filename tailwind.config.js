@@ -5,7 +5,11 @@ export default {
     extend: {
       colors : {
         "bg-primary" : '#3C3C3C',
-        "bg-secendary":'#292929'
+        "bg-secendary":'#292929',
+        "my-bg": '#0FFE82'
+      },
+      textColor: {
+        "my-text" : '#0FFE82'
       },
       fontFamily: {'myFont' :"'Chakra Petch', sans-serif"}
     },

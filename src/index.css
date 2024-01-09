@@ -3,3 +3,126 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar
+{
+    width: 5px;
+    background-color: #3C3C3C;
+}
+::-webkit-scrollbar-thumb
+{
+    background: linear-gradient(transparent, rgb(15, 254, 130));
+    border-radius: 6px;
+}
+/* .card{
+    position: relative;
+} */
+
+/* .card .lines {
+    position: absolute;
+    inset: 0;
+}
+
+.card .lines::before 
+{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150%;
+    height: 100%;
+    background: linear-gradient(transparent, #45f3ff);
+    animation: animate 4s linear infinite;
+}
+@keyframes animate {
+    0%{
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+.card .lines::after 
+{
+    content: '';
+    position: absolute;
+    background: black;
+    inset: 2px;
+} */
+/* .card span:nth-child(1)
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient( to right, transparent, rgb(15, 254, 130));
+    animation: animate_one 800ms linear infinite;
+}
+@keyframes animate_one {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.card span:nth-child(2)
+
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient( to bottom, transparent, rgb(15, 254, 130));
+    animation: animate_two 800ms linear infinite;
+    animation-delay: 5ms;
+}
+@keyframes animate_two {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(100%);
+    }
+}
+.card span:nth-child(3)
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient( to left, transparent, rgb(15, 254, 130));
+    animation: animate_three 800ms linear infinite;
+    animation-delay: 5ms;
+}
+@keyframes animate_three {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+.card span:nth-child(4)
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background: linear-gradient( to left, transparent, rgb(15, 254, 130));
+    animation: animate_four 800ms linear infinite;
+    animation-delay: 5ms;
+}
+@keyframes animate_four {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+} */

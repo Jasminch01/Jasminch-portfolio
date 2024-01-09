@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="text-white  max-w-7xl mx-auto">
       <p
-        className="text-5xl font-bold mb-5 text-yellow-300"
+        className="text-5xl font-bold mb-5 text-my-text"
         data-aos="fade-right"
         data-aos-easing="ease-in-out"
         data-aos-offset="300"
@@ -14,7 +14,7 @@ const Contact = () => {
       </p>
       <div>
         <button
-          className="flex items-center hover:font-bold hover:text-3xl transition-all hover:text-yellow-300"
+          className="flex items-center hover:font-bold hover:text-3xl transition-all hover:text-my-text"
           data-aos="fade-left"
           data-aos-easing="ease-in-sine"
           data-aos-offset="300"
@@ -25,7 +25,7 @@ const Contact = () => {
           <MdArrowOutward />
         </button>
         <button
-          className="flex items-center hover:font-bold hover:text-3xl transition-all hover:text-yellow-300"
+          className="flex items-center hover:font-bold hover:text-3xl transition-all hover:text-my-text"
           data-aos="fade-right"
           data-aos-easing="ease-in-sine"
         >
@@ -35,7 +35,7 @@ const Contact = () => {
           <MdArrowOutward />
         </button>
         <button
-          className="flex items-center hover:font-bold hover:text-3xl transition-all hover:text-yellow-300"
+          className="flex items-center hover:font-bold hover:text-3xl transition-all hover:text-my-text"
           data-aos="fade-up"
           data-aos-anchor-placement="bottom-bottom"
           data-aos-easing="ease-in-sine"
@@ -46,7 +46,7 @@ const Contact = () => {
           <MdArrowOutward />
         </button>
         <button
-          className="flex items-center hover:font-bold hover:text-3xl transition-all hover:text-yellow-300"
+          className="flex items-center hover:font-bold hover:text-3xl transition-all hover:text-my-text"
           data-aos="fade-zoom-in"
           data-aos-easing="ease-in-back"
           data-aos-delay="300"
