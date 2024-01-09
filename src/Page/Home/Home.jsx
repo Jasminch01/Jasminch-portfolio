@@ -4,6 +4,10 @@ import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 import Projects from "../../Components/Projects/Projects";
 import Skills from "../../Components/Skills/Skills";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const Home = () => {
   return (

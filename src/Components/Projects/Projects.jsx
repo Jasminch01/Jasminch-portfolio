@@ -4,9 +4,18 @@ import { Link } from "react-router-dom";
 const Projects = () => {
   return (
     <div className="pb-20 max-w-7xl mx-auto">
-      <p className="text-center font-bold text-5xl uppercase mb-5">Projects</p>
+      <p
+        className="text-center font-bold text-5xl uppercase mb-5"
+        data-aos="fade-up"
+      >
+        Projects
+      </p>
       <div className="space-y-10">
-        <div className=" border border-white rounded-lg hover:bg-yellow-300 hover:text-black transition-all  w-full py-5">
+        <div
+          className=" border border-white rounded-lg hover:bg-yellow-300 hover:text-black transition-all  w-full py-5"
+          data-aos="zoom-in-right"
+          data-aos-delay="300"
+        >
           <div className="text-center">
             <p className="mb-3 text-4xl font-bold">OzshineCleaners</p>
             <p className="text-2xl">
