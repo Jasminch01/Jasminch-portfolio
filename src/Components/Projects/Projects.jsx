@@ -5,24 +5,25 @@ const Projects = () => {
   return (
     <div className="pb-20 max-w-7xl mx-auto">
       <p
-        className="text-center font-bold text-5xl uppercase mb-5"
+        className="text-center font-bold md:text-5xl uppercase mb-10 text-2xl text-my-text"
         data-aos="fade-up"
+        data-aos-duration="1000"
       >
         Projects
       </p>
-      <div className="space-y-10">
+      <div className=" gap-10 px-5 grid md:grid-cols-2 grid-cols-1">
         <div
-          className="overflow-hidden border border-white hover:bg-lime-300 card rounded-lg hover:text-black transition-all  w-full py-5"
-          data-aos="zoom-in-right"
-          data-aos-delay="300"
+          className="overflow-hidden border  border-white hover:bg-lime-300 card rounded-xl hover:text-black transition-all w-full py-5"
+          data-aos="fade-up"
+          data-aos-duration="1000"
         >
           {/* <span className=""></span>
           <span className=""></span>
           <span className=""></span>
           <span className=""></span> */}
           <div className="text-center">
-            <p className="mb-3 text-4xl font-bold">OzshineCleaners</p>
-            <p className="text-2xl">
+            <p className="mb-3 md:text-4xl text-2xl font-bold">OzshineCleaners</p>
+            <p className="md:text-2xl text-xl">
               A Fontend Website of a Australian cleaning service provider
               company
             </p>
@@ -35,15 +36,141 @@ const Projects = () => {
             </div>
             <div className="flex items-center justify-center space-x-5">
               <p className="flex items-center">
-                <Link to={`/`} className="text-xl uppercase">
+                <Link to={`https://comforting-pegasus-72fff5.netlify.app`} className="md:text-xl text-sm uppercase">
                   live Link
-                </Link>{" "}
-                <MdArrowOutward />{" "}
+                </Link>
+                <MdArrowOutward />
               </p>
               <p className="flex items-center">
                 <Link
                   to={`https://github.com/Jasminch01/oZshinecleaners`}
-                  className="text-xl uppercase"
+                  className="md:text-xl text-sm uppercase"
+                >
+                  Github
+                </Link>{" "}
+                <MdArrowOutward />
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* project two */}
+        <div
+          className="overflow-hidden border  border-white hover:bg-lime-300 card rounded-xl hover:text-black transition-all w-full py-5"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          {/* <span className=""></span>
+          <span className=""></span>
+          <span className=""></span>
+          <span className=""></span> */}
+          <div className="text-center">
+            <p className="mb-3 md:text-4xl text-2xl font-bold">OzshineCleaners</p>
+            <p className="md:text-2xl text-xl">
+              A Fontend Website of a Australian cleaning service provider
+              company
+            </p>
+            <div className="flex items-center justify-center my-10">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4326/4326454.png"
+                alt=""
+                className=""
+              />
+            </div>
+            <div className="flex items-center justify-center space-x-5">
+              <p className="flex items-center">
+                <Link to={`https://comforting-pegasus-72fff5.netlify.app`} className="md:text-xl text-sm uppercase">
+                  live Link
+                </Link>
+                <MdArrowOutward />
+              </p>
+              <p className="flex items-center">
+                <Link
+                  to={`https://github.com/Jasminch01/oZshinecleaners`}
+                  className="md:text-xl text-sm uppercase"
+                >
+                  Github
+                </Link>{" "}
+                <MdArrowOutward />
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* pro3 */}
+        <div
+          className="overflow-hidden border  border-white hover:bg-lime-300 card rounded-xl hover:text-black transition-all w-full py-5"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          {/* <span className=""></span>
+          <span className=""></span>
+          <span className=""></span>
+          <span className=""></span> */}
+          <div className="text-center">
+            <p className="mb-3 md:text-4xl text-2xl font-bold">OzshineCleaners</p>
+            <p className="md:text-2xl text-xl">
+              A Fontend Website of a Australian cleaning service provider
+              company
+            </p>
+            <div className="flex items-center justify-center my-10">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4326/4326454.png"
+                alt=""
+                className=""
+              />
+            </div>
+            <div className="flex items-center justify-center space-x-5">
+              <p className="flex items-center">
+                <Link to={`https://comforting-pegasus-72fff5.netlify.app`} className="md:text-xl text-sm uppercase">
+                  live Link
+                </Link>
+                <MdArrowOutward />
+              </p>
+              <p className="flex items-center">
+                <Link
+                  to={`https://github.com/Jasminch01/oZshinecleaners`}
+                  className="md:text-xl text-sm uppercase"
+                >
+                  Github
+                </Link>{" "}
+                <MdArrowOutward />
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* pro4 */}
+        <div
+          className="overflow-hidden border  border-white hover:bg-lime-300 card rounded-xl hover:text-black transition-all w-full py-5"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          {/* <span className=""></span>
+          <span className=""></span>
+          <span className=""></span>
+          <span className=""></span> */}
+          <div className="text-center">
+            <p className="mb-3 md:text-4xl text-2xl font-bold">OzshineCleaners</p>
+            <p className="md:text-2xl text-xl">
+              A Fontend Website of a Australian cleaning service provider
+              company
+            </p>
+            <div className="flex items-center justify-center my-10">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/4326/4326454.png"
+                alt=""
+                className=""
+              />
+            </div>
+            <div className="flex items-center justify-center space-x-5">
+              <p className="flex items-center">
+                <Link to={`https://comforting-pegasus-72fff5.netlify.app`} className="md:text-xl text-sm uppercase">
+                  live Link
+                </Link>
+                <MdArrowOutward />
+              </p>
+              <p className="flex items-center">
+                <Link
+                  to={`https://github.com/Jasminch01/oZshinecleaners`}
+                  className="md:text-xl text-sm uppercase"
                 >
                   Github
                 </Link>{" "}
