@@ -6,7 +6,6 @@ const Skills = () => {
           className="text-center font-bold md:text-5xl text-2xl uppercase text-my-text"
           data-aos="fade-up"
           data-aos-easing="ease-in-out"
-          data-aos-duration="1000"
         >
           Tachnologies i'm using
         </p>

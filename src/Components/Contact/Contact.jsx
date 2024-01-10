@@ -19,9 +19,9 @@ const Contact = () => {
           data-aos-easing="ease-in-sine"
           data-aos-offset="300"
         >
-          <Link to={``} className="md:text-2xl text-lg ">
-            Github{" "}
-          </Link>{" "}
+          <Link to={`https://github.com/Jasminch01`} className="md:text-2xl text-lg ">
+            Github
+          </Link>
           <MdArrowOutward />
         </button>
         <button
@@ -30,8 +30,8 @@ const Contact = () => {
           data-aos-easing="ease-in-sine"
         >
           <Link to={``} className="md:text-2xl text-lg">
-            Linkdin{" "}
-          </Link>{" "}
+            Linkdin
+          </Link>
           <MdArrowOutward />
         </button>
         <button
@@ -41,8 +41,8 @@ const Contact = () => {
           data-aos-easing="ease-in-sine"
         >
           <Link to={``} className="md:text-2xl text-lg ">
-            Facebook{" "}
-          </Link>{" "}
+            Facebook
+          </Link>
           <MdArrowOutward />
         </button>
         <button
@@ -52,9 +52,9 @@ const Contact = () => {
           data-aos-delay="300"
           data-aos-offset="0"
         >
-          <Link to={`jasminchakma895@gmail.com`} className="md:text-2xl text-lg ">
-            Gmail{" "}
-          </Link>{" "}
+          <Link to={`mailto:jasminchakma895@gmail.com`} className="md:text-2xl text-lg ">
+            Gmail
+          </Link>
           <MdArrowOutward />
         </button>
       </div>
