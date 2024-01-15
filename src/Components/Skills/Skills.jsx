@@ -10,18 +10,18 @@ const Skills = () => {
           Tachnologies i'm using
         </p>
       </div>
-      <div className="mt-5 flex flex-col justify-center items-center">
+      <div className="mt-5 flex items-center justify-center flex-col">
         <img
           data-aos="fade-up"
           data-aos-duratain="1000"
-          src={`https://skillicons.dev/icons?i=bootstrap,tailwind,javascript,typescript,react,nextjs`}
+          src={`https://skillicons.dev/icons?i=bootstrap,tailwind,javascript,typescript,react,nextjs,redux`}
           alt=""
           className="md:block hidden my-5"
         />
         <img
           data-aos="fade-up"
           data-aos-duratain="1000"
-          src={`https://skillicons.dev/icons?i=redux,firebase,express,mongodb,ai,photoshop,figma`}
+          src={`https://skillicons.dev/icons?i=nodejs,firebase,express,mongodb,ai,photoshop,figma`}
           alt=""
           className="md:block hidden"
         />
@@ -29,7 +29,7 @@ const Skills = () => {
         <img
           data-aos="fade-up"
           data-aos-duratain="1000"
-          src={`https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,javascript,react,firebase`}
+          src={`https://skillicons.dev/icons?i=bootstrap,tailwind,javascript,typescript,react,nextjs,redux`}
           alt=""
           className="block md:hidden"
         />
@@ -37,7 +37,7 @@ const Skills = () => {
         <img
           data-aos="fade-up"
           data-aos-duratain="1000"
-          src={`https://skillicons.dev/icons?i=express,mongodb,ai,photoshop,figma,nextjs,`}
+          src={`https://skillicons.dev/icons?i=nodejs,firebase,express,mongodb,ai,photoshop,figma`}
           alt=""
           className="block md:hidden mt-5"
         />
