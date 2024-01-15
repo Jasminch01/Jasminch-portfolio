@@ -14,14 +14,14 @@ const Skills = () => {
         <img
           data-aos="fade-up"
           data-aos-duratain="1000"
-          src={`https://skillicons.dev/icons?i=html,css,bootstrap,tailwind,javascript,react,nextjs`}
+          src={`https://skillicons.dev/icons?i=bootstrap,tailwind,javascript,typescript,react,nextjs`}
           alt=""
           className="md:block hidden my-5"
         />
         <img
           data-aos="fade-up"
           data-aos-duratain="1000"
-          src={`https://skillicons.dev/icons?i=firebase,express,mongodb,ai,photoshop,figma`}
+          src={`https://skillicons.dev/icons?i=redux,firebase,express,mongodb,ai,photoshop,figma`}
           alt=""
           className="md:block hidden"
         />
