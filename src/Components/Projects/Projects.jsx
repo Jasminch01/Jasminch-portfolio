@@ -24,7 +24,7 @@ const Projects = () => {
           <div className="text-center">
             <p className="mb-3 md:text-4xl text-2xl font-bold">OzshineCleaners</p>
             <p className="md:text-2xl text-xl">
-              A Fontend Website of a Australian cleaning service provider
+              A Fullstack Website of a Australian cleaning service provider
               company
             </p>
             <div className="flex items-center justify-center my-10">
@@ -66,7 +66,7 @@ const Projects = () => {
           <div className="text-center">
             <p className="mb-3 md:text-4xl text-2xl font-bold">OzshineCleaners</p>
             <p className="md:text-2xl text-xl">
-              A Fontend Website of a Australian cleaning service provider
+              A Fullstack Website of a Australian cleaning service provider
               company
             </p>
             <div className="flex items-center justify-center my-10">
@@ -108,7 +108,7 @@ const Projects = () => {
           <div className="text-center">
             <p className="mb-3 md:text-4xl text-2xl font-bold">OzshineCleaners</p>
             <p className="md:text-2xl text-xl">
-              A Fontend Website of a Australian cleaning service provider
+              A Fullstack Website of a Australian cleaning service provider
               company
             </p>
             <div className="flex items-center justify-center my-10">
@@ -150,7 +150,7 @@ const Projects = () => {
           <div className="text-center">
             <p className="mb-3 md:text-4xl text-2xl font-bold">OzshineCleaners</p>
             <p className="md:text-2xl text-xl">
-              A Fontend Website of a Australian cleaning service provider
+              A Fullstack Website of a Australian cleaning service provider
               company
             </p>
             <div className="flex items-center justify-center my-10">
