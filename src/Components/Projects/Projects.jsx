@@ -36,7 +36,7 @@ const Projects = () => {
             </div>
             <div className="flex items-center justify-center space-x-5">
               <p className="flex items-center">
-                <Link to={`https://comforting-pegasus-72fff5.netlify.app`} className="md:text-xl text-sm uppercase">
+                <Link to={`https://www.ozshinecleaners.com.au`} className="md:text-xl text-sm uppercase">
                   live Link
                 </Link>
                 <MdArrowOutward />
@@ -78,7 +78,7 @@ const Projects = () => {
             </div>
             <div className="flex items-center justify-center space-x-5">
               <p className="flex items-center">
-                <Link to={`https://comforting-pegasus-72fff5.netlify.app`} className="md:text-xl text-sm uppercase">
+                <Link to={`https://www.ozshinecleaners.com.au`} className="md:text-xl text-sm uppercase">
                   live Link
                 </Link>
                 <MdArrowOutward />
@@ -120,7 +120,7 @@ const Projects = () => {
             </div>
             <div className="flex items-center justify-center space-x-5">
               <p className="flex items-center">
-                <Link to={`https://comforting-pegasus-72fff5.netlify.app`} className="md:text-xl text-sm uppercase">
+                <Link to={`https://www.ozshinecleaners.com.au`} className="md:text-xl text-sm uppercase">
                   live Link
                 </Link>
                 <MdArrowOutward />
@@ -162,7 +162,7 @@ const Projects = () => {
             </div>
             <div className="flex items-center justify-center space-x-5">
               <p className="flex items-center">
-                <Link to={`https://comforting-pegasus-72fff5.netlify.app`} className="md:text-xl text-sm uppercase">
+                <Link to={`https://www.ozshinecleaners.com.au`} className="md:text-xl text-sm uppercase">
                   live Link
                 </Link>
                 <MdArrowOutward />
