@@ -54,6 +54,42 @@ const Projects = () => {
           </div>
         </div>
         {/* project two */}
+        <div
+          className="overflow-hidden border  border-white hover:bg-lime-300 card rounded-xl hover:text-black transition-all w-full py-5"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <div className="text-center">
+            <p className="mb-3 md:text-4xl text-2xl font-bold">QuickDrop</p>
+            <p className="md:text-2xl text-xl">
+              A Fullstack  parcel management web application.
+            </p>
+            <div className="flex items-center justify-center my-10">
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/10112/10112526.png"
+                alt=""
+                className=""
+              />
+            </div>
+            <div className="flex items-center justify-center space-x-5">
+              <p className="flex items-center">
+                <Link to={``} className="md:text-xl text-sm uppercase">
+                  live Link
+                </Link>
+                <MdArrowOutward />
+              </p>
+              <p className="flex items-center">
+                <Link
+                  to={`https://github.com/Jasminch01/QuickDrop-client`}
+                  className="md:text-xl text-sm uppercase"
+                >
+                  Github
+                </Link>{" "}
+                <MdArrowOutward />
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
