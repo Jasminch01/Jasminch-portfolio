@@ -73,7 +73,7 @@ const Projects = () => {
             </div>
             <div className="flex items-center justify-center space-x-5">
               <p className="flex items-center">
-                <Link to={``} className="md:text-xl text-sm uppercase">
+                <Link to={`https://quicdrop-a1c9c.web.app`} className="md:text-xl text-sm uppercase">
                   live Link
                 </Link>
                 <MdArrowOutward />
