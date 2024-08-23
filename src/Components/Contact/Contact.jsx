@@ -8,7 +8,7 @@ const Contact = () => {
         className="md:text-5xl text-2xl font-bold mb-5 text-my-text"
         data-aos="fade-right"
         data-aos-easing="ease-in-out"
-        data-aos-offset="300"
+        data-aos-offset="200"
       >
         Let's Get in Touch
       </p>
